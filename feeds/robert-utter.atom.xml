@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Robert Utter</title><link href="http://areyoutoo.github.io/" rel="alternate"></link><link href="http://areyoutoo.github.io/feeds%5Crobert-utter.atom.xml" rel="self"></link><id>http://areyoutoo.github.io/</id><updated>2014-09-16T00:00:00+02:00</updated><entry><title>WebGL Icicles</title><link href="http://areyoutoo.github.io/webgl-icicles.html" rel="alternate"></link><updated>2014-09-16T00:00:00+02:00</updated><author><name>Robert Utter</name></author><id>tag:areyoutoo.github.io,2014-09-16:webgl-icicles.html</id><summary type="html">&lt;p&gt;I've done a fair amount of gameplay programming, but have less experience with in-browser Javascript and even less interacting directly with OpenGL. This was a nice opportunity to explore both.&lt;/p&gt;
+&lt;p&gt;This program was a class assignment to explore the various types of OpenGL primitives, including triangles, triangle strips and fans, line strips and loops, and points. I use only two shaders, both of which have a sort of "poor man's transform matrix" built in (that's my next learning topic).&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://areyoutoo.github.io/demos/webgl/icicles/icicles.html"&gt;Try the game for yourself!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;When I presented this project in class, several students assumed that I had used bitmap textures to produce my graphics. In fact, I draw everything with GL primitives and vertex coloring.&lt;/p&gt;</summary><category term="webgl"></category></entry><entry><title>Copycat Killbot</title><link href="http://areyoutoo.github.io/copycat-killbot.html" rel="alternate"></link><updated>2014-07-13T00:00:00+02:00</updated><author><name>Robert Utter</name></author><id>tag:areyoutoo.github.io,2014-07-13:copycat-killbot.html</id><summary type="html">&lt;p&gt;You control an unarmed ship, facing off against the eponymous Copycat Killbot and its deadly lasers. You cannot hope to damage the Killbot directly, but because it mirrors your moves exactly you may be able to trick it into ramming mines that are in the area.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Copycat Killbot&lt;/strong&gt; is a &lt;a href="https://twitter.com/3hrgamejam"&gt;@3hrgamejam&lt;/a&gt; submission I made with Megan Ting for the theme "OPPOSITES".&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://areyoutoo.github.io/demos/unity/copycat.html"&gt;Try the game for yourself!&lt;/a&gt;&lt;/p&gt;</summary><category term="unity3d"></category></entry><entry><title>Flying Over the Influence</title><link href="http://areyoutoo.github.io/flying-over-the-influence.html" rel="alternate"></link><updated>2014-03-12T00:00:00+01:00</updated><author><name>Robert Utter</name></author><id>tag:areyoutoo.github.io,2014-03-12:flying-over-the-influence.html</id><summary type="html">&lt;p&gt;&lt;img alt="Flying Over the Influence banner" src="http://areyoutoo.github.io/images/flyover-banner.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Flying Over the Influence&lt;/strong&gt; is a drunken flight simulator for Unity WebPlayer 
+and mobile devices.&lt;/p&gt;
+&lt;p&gt;Choose your plane. Fly through rings for bonus points. Shoot or collect 
+balloons to increase your time. Purple balloons will also get your pilot drunk, 
+making flight more difficult.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://areyoutoo.github.io/demos/unity/flyover.html"&gt;Play the web version&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://play.google.com/store/apps/details?id=com.mattrobinc.flyover"&gt;Android version available on Google Play&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Matt Shouse and I developed a protoype in January, 2014 for the Global Game 
+Jam, and decided to continue working on the project through GDC. Our original
+build is &lt;a href="https://github.com/areyoutoo/ggj2014"&gt;open source&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;All code, placeholder audio, and UI are by me; all 3D art is by Matt. We use 
+one public domain music file and a few texture samples, otherwise the work is
+from scratch.&lt;/p&gt;
+&lt;p&gt;Key features include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Flight with in-game physics&lt;/li&gt;
+&lt;li&gt;Multi-platform control system (keyboard for PC/web, gyro for mobile)&lt;/li&gt;
+&lt;li&gt;Rendering performance enhanced through dynamic/static batching, atlasing&lt;/li&gt;
+&lt;li&gt;Ability to calibrate a custom "neutral" position for gyro input&lt;/li&gt;
+&lt;li&gt;Camera and flight controls dynamically affected by inebriation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;One curious note: my experience working on Bust-N-Rush was very helpful on this 
+game, since I've spent a lot of time learning to create interesting camera 
+movements without causing motion sickness for most players. It's a surprisingly
+fine line to walk!&lt;/p&gt;</summary><category term="unity3d"></category></entry><entry><title>Global Game Jam 2014</title><link href="http://areyoutoo.github.io/global-game-jam-2014.html" rel="alternate"></link><updated>2014-01-25T00:00:00+01:00</updated><author><name>Robert Utter</name></author><id>tag:areyoutoo.github.io,2014-01-25:global-game-jam-2014.html</id><summary type="html">&lt;p&gt;Matt Shouse and I worked together for this &lt;a href="http://globalgamejam.org/2014/games/flying-over-influence"&gt;Global Game Jam 2014 submission&lt;/a&gt;. We've since &lt;a href="http://areyoutoo.github.io/flying-over-the-influence.html"&gt;worked on the project a bit more&lt;/a&gt;, polishing it up as a portfolio piece for GDC.&lt;/p&gt;
+&lt;p&gt;You can find the &lt;a href="https://github.com/areyoutoo/ggj2014"&gt;source code on GitHub&lt;/a&gt;, or download a playable demo from the GGJ site.&lt;/p&gt;</summary><category term="unity3d"></category></entry><entry><title>FF Racing</title><link href="http://areyoutoo.github.io/ff-racing.html" rel="alternate"></link><updated>2013-12-31T00:00:00+01:00</updated><author><name>Robert Utter</name></author><id>tag:areyoutoo.github.io,2013-12-31:ff-racing.html</id><summary type="html">&lt;p&gt;After Techtonic Games went bust, I returned to university to finish my degree, where I was invited to return to Chico State Game Studios as a technical advisor.&lt;/p&gt;
+&lt;p&gt;At the time, CSGS had switched engines and was using Shiva3D. Though I was sad to see the days of big-team, big-dream Unreal projects go, I think it was best for the program, and in fact I now encourage them to scale down their designs even further: a small, finished game strikes me as a better piece than an unpolished dream.&lt;/p&gt;
+&lt;p&gt;A semester later, I was one of a few students who rebuilt the current project in Unity3D. I give you &lt;a href="http://www.chicostategamestudios.com/furiouslyFastRacing/index.html"&gt;the racing game formerly known as Furiously Fast&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The game should be compatible with PC and Unity WebPlayer, but &lt;a href="https://play.google.com/store/apps/details?id=com.occultvoid.race"&gt;for now it's available for Android&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I was more closely involved with older CSGS projects, but I still had a few responsibilities:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Train students to better use Lua (and, more recently, C#).&lt;/li&gt;
+&lt;li&gt;Advise students on the technical feasibility of their designs.&lt;/li&gt;
+&lt;li&gt;Help with implementation and troubleshooting of particularly difficult or irksome features.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Generally, that means I spend my time in the &lt;a href="http://miksovsky.blogs.com/flowstate/2010/09/every-app-has-a-scary-basement.html"&gt;"scary basement"&lt;/a&gt; of whatever apps they're asking me about.&lt;/p&gt;
+&lt;p&gt;I'm still on-call for any problems with the program's project server, which is running Redmine and Subversion. I've written up a "runbook" for whoever follows after me, in the hope that they'll have a better idea of what's going on with the system.&lt;/p&gt;</summary><category term="unity3d"></category><category term="shiva3d"></category></entry><entry><title>Bust-N-Rush</title><link href="http://areyoutoo.github.io/bust-n-rush.html" rel="alternate"></link><updated>2013-01-15T00:00:00+01:00</updated><author><name>Robert Utter</name></author><id>tag:areyoutoo.github.io,2013-01-15:bust-n-rush.html</id><summary type="html">&lt;p&gt;&lt;strong&gt;Bust-N-Rush&lt;/strong&gt; (BNR) is a 3D endless runner for PC and Mac, made by Techtonic 
+Games, previously available for sale on EA's Origin.&lt;/p&gt;
+&lt;iframe width="560" height="315" src="//www.youtube.com/embed/MsRQ912Un5M" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Kovo is a hard and heavy bruiser who can "bust" through just about anything, as
+long as he can "rush" fast enough. After the Satellite of Wub breaks his only
+lawn flamingo, Kovo embarks on a quest for revenge.&lt;/p&gt;
+&lt;p&gt;I worked as programmer (and later lead programmer) during BNR's development,
+ultimately supervising two direct reports and coordinating efforts with other
+developers including designers, artists, and our in-house audio engineer.&lt;/p&gt;
+&lt;p&gt;I personally developed the backend for our quest-driven map generation system,
+optimized our audio performance, avoided high-speed physics glitches, integrated
+several third-party libraries including AlienFX, and implemented most of BNR's
+gameplay code.&lt;/p&gt;
+&lt;p&gt;I'm exceptionally proud of our technical accomplishments, but we couldn't keep
+sales high enough and the Techtonic team had to put our startup dreams on ice.&lt;/p&gt;
+&lt;p&gt;Unique challenges included:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Static lighting system in a dynamic environment.&lt;/li&gt;
+&lt;li&gt;Multiply-layered music tracks need to be kept in sync.&lt;/li&gt;
+&lt;li&gt;Editor scripting to reduce workload for other departments, platforms.&lt;/li&gt;
+&lt;li&gt;Movement at extremely high speeds presents difficulty for performant physics.&lt;/li&gt;
+&lt;li&gt;Heavy focus on memory/runtime performance.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;BNR was developed using the Unity engine, and makes use of various plugins 
+including NGUI, JsonFx, and BouncyCastle.&lt;/p&gt;
+&lt;p&gt;The game is no longer available for sale, but you can still find plenty of 
+&lt;a href="http://www.youtube.com/results?search_query=bust%20n%20rush"&gt;gameplay videos on Youtube&lt;/a&gt;.&lt;/p&gt;</summary><category term="unity3d"></category><category term="techtonic"></category></entry><entry><title>Spin Fight</title><link href="http://areyoutoo.github.io/spin-fight.html" rel="alternate"></link><updated>2012-06-12T00:00:00+02:00</updated><author><name>Robert Utter</name></author><id>tag:areyoutoo.github.io,2012-06-12:spin-fight.html</id><summary type="html">&lt;p&gt;This was an announced but unshipped title that I worked on at Techtonic Games. I can't say much, other than to quote publicly available information from the game's &lt;a href="https://www.facebook.com/SpinFight"&gt;Facebook page&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Your ship is surrounded on all sides by strange, alien vectors. You haven’t discovered any means of communicating with them, and it seems that you have only one option: you’re going to have to spin. You’re going to have to spin… hard.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img alt="Spin Fight screenshot" src="http://areyoutoo.github.io/images/spinfight.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;The game was developed by a small team during some downtime working on Bust-N-Rush, and focused on a simple mechanic: spinning! Waves of enemies approach from any angle they can manage, and you must time your turns such that none of them are able to hit you from behind.&lt;/p&gt;</summary><category term="unity3d"></category><category term="techtonic"></category></entry><entry><title>Communists Versus Zombies</title><link href="http://areyoutoo.github.io/communists-versus-zombies.html" rel="alternate"></link><updated>2011-12-31T00:00:00+01:00</updated><author><name>Robert Utter</name></author><id>tag:areyoutoo.github.io,2011-12-31:communists-versus-zombies.html</id><summary type="html">&lt;p&gt;Evil is coming, and the brave soldiers of Mother Russia must rise to stop it. You play as a Commissar in Stalin's army during the infamous Battle of Stalingrad. You place troops, give them movement orders, permanent and temporary buffs, and light artillery support. Your goal? Survive the horde.&lt;/p&gt;
+&lt;iframe width="420" height="315" src="//www.youtube.com/embed/z1rc5PSBG70" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;I was the student director for CVZ, ultimately overseeing the work of over 80 students. It was quite a challenge to train and coordinate everyone! While many of our more experienced Unreal developers had departed CSGS, we were still able to put together one of our best alpha releases to date.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://chicostategamestudios.com/cvz/index.shtml"&gt;See more about CVZ on the CSGS website.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The CSGS program attempts to model a real-life AAA production pipeline, with students breaking into teams by department and skill set. Each project is the culmination of work by dozens of students over multiple semesters. Students get a chance to experience the joys and challenges of working with other  disciplines, including concept art, environmental and character modeling, animation, audio and recording arts, level design, and programming.&lt;/p&gt;
+&lt;p&gt;The program also offers real experience with large-scale production tools, including agile project management, issue tracking, and version control.&lt;/p&gt;</summary><category term="unreal"></category><category term="csgs"></category></entry><entry><title>40 Stories</title><link href="http://areyoutoo.github.io/40-stories.html" rel="alternate"></link><updated>2010-12-31T00:00:00+01:00</updated><author><name>Robert Utter</name></author><id>tag:areyoutoo.github.io,2010-12-31:40-stories.html</id><summary type="html">&lt;p&gt;In this top-down puzzle game, you take on the role of Anita, an office worker who'd like nothing more than to leave work... if only she could reach the building's ground floor.&lt;/p&gt;
+&lt;p&gt;After a mishap, the office's copy machines gain the ability to clone Anita. As you control the original Anita, you also control her clones; by moving each of them simultaneously, you can gain access to new areas and progress through the building, floor by floor.&lt;/p&gt;
+&lt;iframe width="420" height="315" src="//www.youtube.com/embed/LSGukGt1xec" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;I was the lead programmer for 40 Stories. Unique technical challenges included:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Creating a one-to-many PlayerController in UnrealScript.&lt;/li&gt;
+&lt;li&gt;Creating new collision handlers and puzzle asset scripts.&lt;/li&gt;
+&lt;li&gt;Assisting level design and tech art with scripting support.&lt;/li&gt;
+&lt;li&gt;Handling race conditions in Unreal's trigger and Kismet systems.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Technology used during this project included UDK, UnrealScript, Kismet, UnCodeX, Redmine, and Subversion.&lt;/p&gt;
+&lt;p&gt;Though the game's scope was large for a two-semester, part-time team, this is the first large-scale game project CSGS was able to build into a feature-complete beta version.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://chicostategamestudios.com/40stories/index.shtml"&gt;See more about 40 Stories on the CSGS website.&lt;/a&gt;&lt;/p&gt;</summary><category term="unreal"></category><category term="csgs"></category></entry><entry><title>Davis</title><link href="http://areyoutoo.github.io/davis.html" rel="alternate"></link><updated>2009-12-31T00:00:00+01:00</updated><author><name>Robert Utter</name></author><id>tag:areyoutoo.github.io,2009-12-31:davis.html</id><summary type="html">&lt;p&gt;D.A.V.I.S. is the second total-conversion UDK project I worked on with Chico State Game Studios. This time around, we focused on puzzle mechanics and environmental storytelling.&lt;/p&gt;
+&lt;p&gt;You wake up in the remnants of an abandoned subterranean complex. Through exploration, several facts will become clear: most of the base was once styled after a generic 1950s suburb, terrible things have happened to whoever lived in this place, and a strange woman named Katherine has brought you here to rekindle a connection from your long-forgotten childhood.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://chicostategamestudios.com/davis/"&gt;Read more about D.A.V.I.S. on the CSGS website&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;My responsibilities included:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;During pre-production, advised design team on technical goals and limitations.&lt;/li&gt;
+&lt;li&gt;Designed and implemented several backend systems, including an inventory system, save/load support, custom Kismet nodes for puzzle mechanics.&lt;/li&gt;
+&lt;li&gt;Assisted with UI frontend programming, including inventory, story page collection, puzzle clues.&lt;/li&gt;
+&lt;li&gt;Trained and oversaw student programmers working in an unfamiliar tech stack, including some students with and without hard computer science backgrounds. Had to find tasks suitable for multiple skill levels.&lt;/li&gt;
+&lt;li&gt;Coordinated efforts with other teams, particularly including UI artists, level designers and technical artists.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Technology used during this project included UDK, UnrealScript, Kismet, UnCodeX, Redmine, MediaWiki and Subversion.&lt;/p&gt;</summary><category term="unreal"></category><category term="csgs"></category></entry><entry><title>High Noon</title><link href="http://areyoutoo.github.io/high-noon.html" rel="alternate"></link><updated>2008-12-31T00:00:00+01:00</updated><author><name>Robert Utter</name></author><id>tag:areyoutoo.github.io,2008-12-31:high-noon.html</id><summary type="html">&lt;p&gt;&lt;strong&gt;Chico State Game Studios&lt;/strong&gt; (CSGS) is a student-led game development program 
+hosted by the Applied Computer Graphics department at California State 
+University, Chico.&lt;/p&gt;
+&lt;p&gt;The CSGS program attempts to model a real-life AAA production pipeline, with 
+students breaking into teams by department and skill set. Each project is the
+culmination of work by dozens of students over multiple semesters. Students get
+a chance to experience the joys and challenges of working with other 
+disciplines, including concept art, environmental and character modeling, 
+animation, audio and recording arts, level design, and programming.&lt;/p&gt;
+&lt;p&gt;The program also offers real experience with large-scale production tools,
+including agile project management, issue tracking, and version control.&lt;/p&gt;
+&lt;p&gt;I've taken on a number of roles during my time with CSGS, including UI/gameplay
+programmer, lead programmer, student director, and sysadmin.&lt;/p&gt;
+&lt;p&gt;Projects I've worked on at CSGS include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://chicostategamestudios.com/highnoon/"&gt;High Noon&lt;/a&gt; (Programmer, UDK)&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://chicostategamestudios.com/davis/"&gt;DAVIS&lt;/a&gt; (Lead Programmer, UDK)&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://chicostategamestudios.com/40stories/index.shtml"&gt;40 Stories&lt;/a&gt; (Lead Programmer, UDK)&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://chicostategamestudios.com/cvz/index.shtml"&gt;Communists Versus Zombies&lt;/a&gt; (Director, UDK)&lt;/li&gt;
+&lt;li&gt;Furiously Fast Racing (Technical Advisor, Unity)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Aside from directly working on games, I've personally set up and administered
+some of CSGS's server software, including Redmine and Subversion.&lt;/p&gt;</summary><category term="unreal"></category></entry></feed>
