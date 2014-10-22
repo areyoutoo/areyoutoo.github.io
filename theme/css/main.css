@@ -463,7 +463,7 @@ img.left, figure.left {
 			margin: 0;
 		}
 		
-		.hentry img{display: none;}
+		/*.hentry img{display: none;}*/
 
 		.hentry iframe{display: none;} /* Sometimes I'm dumb and a YouTube iframe is in summary */
 

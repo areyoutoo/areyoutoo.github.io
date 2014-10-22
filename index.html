@@ -5,6 +5,8 @@
         <title>Welcome!</title>
         <link rel="stylesheet" href="./theme/css/main.css" />
 
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
         <!--[if IE]>
             <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
@@ -20,7 +22,7 @@
                     <li><a href="./category/projects.html">Projects</a></li>
             </ul></nav>
         </header><!-- /#banner -->
-<section id="content" class="body">
+<section id="content" class="body js-background" data-bg="bnr.jpg">
     <h1 class="entry-title">Welcome!</h1>
     <p>My name is Robert Utter. I'm studying computer science at California State University, Chico. I also make video games and help run a few websites.</p>
 <p>In my spare time, I write about some of the things I've worked on:</p>
@@ -68,5 +70,6 @@ other profiles linked below.</p>
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
     </script>
+<script src="/theme/js/header-image.js"></script>
 </body>
 </html>

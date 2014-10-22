@@ -5,6 +5,8 @@
         <title>Flying Over the Influence</title>
         <link rel="stylesheet" href="./theme/css/main.css" />
 
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
         <!--[if IE]>
             <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
@@ -20,7 +22,8 @@
                     <li class="active"><a href="./category/projects.html">Projects</a></li>
             </ul></nav>
         </header><!-- /#banner -->
-<section id="content" class="body">
+
+<section id="content" class="body js-background" data-bg="flyover.jpg">
   <article>
     <header>
       <h1 class="entry-title">
@@ -36,15 +39,14 @@
                 </abbr>
 
                 in category <a href="./category/projects.html">Projects</a> and tags <a href="./tag/unity3d.html">unity3d</a>
-                
+        </p>               
 
         <p>
         <address class="vcard author">
                 By                         <a class="url fn" href="./author/robert-utter.html">Robert Utter</a>
         </address>
         </p>
-</header><!-- /.post-info -->      <p><img alt="Flying Over the Influence banner" src="./images/flyover-banner.png" /></p>
-<p><strong>Flying Over the Influence</strong> is a drunken flight simulator for Unity WebPlayer 
+</header><!-- /.post-info -->      <p><strong>Flying Over the Influence</strong> is a drunken flight simulator for Unity WebPlayer 
 and mobile devices.</p>
 <p>Choose your plane. Fly through rings for bonus points. Shoot or collect 
 balloons to increase your time. Purple balloons will also get your pilot drunk, 
@@ -109,5 +111,6 @@ fine line to walk!</p>
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
     </script>
+<script src="/theme/js/header-image.js"></script>
 </body>
 </html>
