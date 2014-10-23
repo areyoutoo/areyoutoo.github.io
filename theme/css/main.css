@@ -24,7 +24,7 @@
 
 /* Body */
 body {
-	background: hsl(58, 17%, 91%);
+	background: hsl(58, 25%, 81%);
 	color: hsl(204, 100%, 1%);
 	font-size: 87.5%; /* Base font size: 14px */
 	font-family: 'Verdana', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -78,13 +78,13 @@ a {
 	}
 
 	a:link, a:visited {
-		color: hsl(354, 64%, 52%);
+		color: hsl(360, 80%, 40%);
 		padding: 0 1px;
 		text-decoration: none;
 	}
 
 	a:hover, a:active {
-		color: hsl(354, 84%, 52%);
+		color: hsl(360, 85%, 45%);
 		text-decoration: underline;
 	}
 
@@ -217,7 +217,7 @@ img.left, figure.left {
 
 		#banner h1 a:hover, #banner h1 a:active {
 			background: none;
-			color: hsl(354, 54%, 52%);
+			color: hsl(360, 80%, 35%);
 			text-shadow: none;
 		}
 
@@ -273,7 +273,7 @@ img.left, figure.left {
 
 		#banner nav a:hover, #banner nav a:active,
 		#banner nav .active a:link, #banner nav .active a:visited {
-			background: hsl(354, 54%, 52%);
+			background: hsl(360, 80%, 35%);
 			color: #fff;
 			text-shadow: none !important;
 		}
@@ -305,7 +305,7 @@ img.left, figure.left {
 		}
 
 	#featured h2 {
-		color: hsl(354, 54%, 52%);
+		color: hsl(360, 57%, 50%);
 		font-size: 1.714em;
 		margin-bottom: 0.333em;
 	}
@@ -349,21 +349,21 @@ img.left, figure.left {
 	}
 
 	#extras h2 {
-		color: hsl(354, 54%, 52%);
+		color: hsl(360, 57%, 50%);
 		font-size: 1.429em;
 		margin-bottom: .25em;
 		padding: 0 3px;
 	}
 
 	#extras a:link, #extras a:visited {
-		color: hsl(0, 0%, 27%);
+		color: hsl(0, 0%, 10%);
 		display: block;
 		text-decoration: none;
 		padding: .3em .25em;
 	}
 
 	#extras a:hover, #extras a:active {
-		color: hsl(354, 84%, 52%);
+		color: hsl(360, 57%, 50%);
 		text-decoration: underline;
 	}
 
