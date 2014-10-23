@@ -63,7 +63,7 @@ h6 {font-size: 1em}		/* 14px */
 		margin-top: .8em;
 	}
 
-hr {border: 2px solid #EEEEEE;}	
+hr {border: 1px solid #ccc;}	
 	
 
 /* Links */
@@ -464,6 +464,8 @@ img.left, figure.left {
 		}
 		
 		/*.hentry img{display: none;}*/
+
+		.hentry img{border:1px solid black;}
 
 		.hentry iframe{display: none;} /* Sometimes I'm dumb and a YouTube iframe is in summary */
 
