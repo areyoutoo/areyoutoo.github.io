@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Tour by Rutter</title> 
+
+    <link rel="stylesheet" href="./rutter-p5.css"></link>
+  </head>
+
+  <body onload="main()">
+    <h1>The Little Hamlet</h1>
+
+    <div id="content">
+      <canvas id="webgl" width="600" height="600">
+      Please use a browser that supports "canvas"
+      </canvas>
+
+      <!--
+      <img id="left" src="left-arrow.png" />
+      <img id="right" src="right-arrow.png" />
+      -->
+    </div>
+
+    <div class="controls">
+      <div class="left">
+        <h2>Controls</h2>
+
+        <ul>
+          <li><strong>Arrows:</strong> move around</li>
+          <li><strong>W:</strong> toggle windmill</li>
+          <li><strong>Y:</strong> turn windmill</li>
+        </ul>
+      </div>
+
+      <div class="right">
+        <h2>Extras</h2>
+
+        <ul>
+          <li><strong>Q/E:</strong> strafe</li>
+          <li><strong>0-9:</strong> set time speed</li>
+          <li><strong>C:</strong> toggle materials</li>
+        </ul>
+      </div>
+    </div>
+
+
+    <script src="../lib/webgl-utils.js"></script>
+    <script src="../lib/webgl-debug.js"></script>
+    <script src="../lib/cuon-utils.js"></script>
+    <script src="../lib/cuon-matrix.js"></script>
+    <script src="./data.js"></script>
+    <script src="./rutter-lib5.js"></script>
+    <script src="./rutter-p5.js"></script>
+  </body>
+</html>

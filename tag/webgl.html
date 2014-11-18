@@ -24,13 +24,13 @@
             </ul></nav>
         </header><!-- /#banner -->
 
-            <aside id="featured" class="body js-background" data-bg="icicles.png">
+            <aside id="featured" class="body bg-top" style="background-image: url(/images/hamlet.jpg)" >                
                 <article>
-                    <h1 class="entry-title"><a href="../webgl-icicles.html">WebGL Icicles</a></h1>
+                    <h1 class="entry-title"><a href="../webgl-hamlet.html">WebGL Hamlet</a></h1>
 <header class="post-heading">
         <p>
-                <abbr class="published" title="2014-09-16T00:00:00">
-                        September 16, 2014
+                <abbr class="published" title="2014-11-17T00:00:00">
+                        November 17, 2014
                 </abbr>
 
                 in category <a href="../category/jams.html">Jams</a> and tags <a href="../tag/webgl.html">webgl</a>
@@ -41,15 +41,38 @@
                 By                         <a class="url fn" href="../author/robert-utter.html">Robert Utter</a>
         </address>
         </p>
-</header><!-- /.post-info --><p>I've done a fair amount of gameplay programming, but have less experience with in-browser Javascript and even less interacting directly with OpenGL. This was a nice opportunity to explore both.</p>
-<p>This program was a class assignment to explore the various types of OpenGL primitives, including triangles, triangle strips and fans, line strips and loops, and points. I use only two shaders, both of which have a sort of "poor man's transform matrix" built in (that's my next learning topic).</p>
-<p><a href="../demos/webgl/icicles/icicles.html">Try the game for yourself!</a></p>
-<p>When I presented this project in class, several students assumed that I had used bitmap textures to produce my graphics. In fact, I draw everything with GL primitives and vertex coloring.</p>
+</header><!-- /.post-info --><p>Following up from my <a href="../webgl-icicles.html">first WebGL project</a>, I've built a nice little village scene to practice more graphics programming. This one includes perspective projection, texturing, and some vertex lighting.</p>
+<p>The game includes a day-night cycle to demonstrate the diffuse and ambient lighting changes. You can also walk around the scene or control the town's central windmill.</p>
+<p><a href="../demos/webgl/hamlet/hamlet.html">Check out The Little Hamlet</a></p>
+<p>Inspired by my work in Unity, I decided that building model matrices would be easier with hierarchical transform objects handling vector scaling, rotation, and translation. I have noticed a bug when applying some rotations, but avoiding it is pretty easy and the fix incurs a bigger performance penalty than I would like.</p>
+<p>As far as the blocky models, this is a class assignment with one unusual constraint: all geometry in the scene must be built from a single cube mesh.</p>
                 </article>
-<p class="paginator">
-    Page 1 / 1
-</p>
             </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+
+            <li><article class="hentry">
+                
+                <h1><a href="../webgl-icicles.html" rel="bookmark" title="Permalink to WebGL Icicles">WebGL Icicles</a></h1>
+<header class="post-heading">
+        <abbr class="published" title="2014-09-16T00:00:00">
+                Sep 16, 2014
+        </abbr>
+
+        in category <a href="../category/jams.html">Jams</a> and tags <a href="../tag/webgl.html">webgl</a>
+</header><!-- /.post-info --> 
+
+                <div>
+                    <img class="left" src="/images/icicles-s.png" width="150" height="100"></img>
+                    <p>I've done a fair amount of gameplay programming, but have less experience with in-browser Javascript and even less interacting directly with OpenGL. This was a nice opportunity to explore both.</p>
+<p>This program was a class assignment to explore the various types of OpenGL primitives, including triangles, triangle strips and ...</p>
+                    <a class="readmore" href="../webgl-icicles.html">read more</a>
+                </div>
+            </article></li>
+                </ol><!-- /#posts-list -->
+                </section><!-- /#content -->
         <section id="extras" class="body">
                 <div class="blogroll">
                         <h2>Blogroll</h2>

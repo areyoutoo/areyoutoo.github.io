@@ -1,0 +1,94 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, sans-serif;
+  background: hsl(0, 0%, 80%);
+}
+
+h1 {
+  color: hsl(143, 78%, 18%);
+  font-size: 3em;
+  font-family: 'Lobster', Garamond, Serif;
+  margin: 0.2em auto;
+  padding: 0;
+  text-align: center;
+  background: linear-gradient(to bottom, hsl(143, 78%, 51%), hsl(143, 78%, 33%));
+}
+
+h2 {
+  font-family: 'Lobster', Garamond, Serif;  
+}
+
+#webgl {
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+  display: block;
+  padding: 0;
+}
+
+#content {
+  width: 600px;
+  margin: auto;
+}
+
+#content div {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.controls {
+  width: 600px;
+  margin: auto;
+
+}
+
+/*.controls .left {
+  width: 300px;
+}
+
+.controls .right {
+  width: 300px;
+}*/
+
+.controls div {
+  margin: 1em;
+  padding: 1em;
+  border: 1px solid black;
+  background: hsl(143, 78%, 51%);  
+}
+
+canvas {
+  border: 1px solid black;
+  display: block;
+  margin: auto;
+  padding: 0;
+}
+
+.pale {
+  color: hsl(240, 40%, 73%);
+}
+
+.hide {
+  display:none;
+}
+
+.score-container {
+  font-size: 3em;
+}
+
+
+
+
+

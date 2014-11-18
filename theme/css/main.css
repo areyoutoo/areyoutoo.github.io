@@ -185,6 +185,26 @@ table {
 	width: 800px;
 }
 
+.bg-top {
+	background-size: 800px 158px !important;
+	background-repeat: no-repeat !important;
+	padding-top: 168px !important;
+	-moz-transition: background 0.5s;
+	-o-transition: background 0.5s;
+	-webkit-transition: background 0.5s;
+	transition: background 0.5s;
+}
+
+.bg-top-behind {
+	background-size: 800px 158px !important;
+	background-repeat: no-repeat !important;
+	width: 800px;
+	height: 158px;
+	/*position: absolute; top: 0; bottom: 0; left: 0; right: 0;*/
+	z-index: -1;
+	/*content: "";*/
+}*/
+
 img.right, figure.right {
 	float: right;
 	margin: 0 0 2em 2em;

@@ -24,13 +24,13 @@
             </ul></nav>
         </header><!-- /#banner -->
 
-            <aside id="featured" class="body js-background" data-bg="icicles.png">
+            <aside id="featured" class="body bg-top" style="background-image: url(/images/hamlet.jpg)" >                
                 <article>
-                    <h1 class="entry-title"><a href="../webgl-icicles.html">WebGL Icicles</a></h1>
+                    <h1 class="entry-title"><a href="../webgl-hamlet.html">WebGL Hamlet</a></h1>
 <header class="post-heading">
         <p>
-                <abbr class="published" title="2014-09-16T00:00:00">
-                        September 16, 2014
+                <abbr class="published" title="2014-11-17T00:00:00">
+                        November 17, 2014
                 </abbr>
 
                 in category <a href="../category/jams.html">Jams</a> and tags <a href="../tag/webgl.html">webgl</a>
@@ -41,16 +41,36 @@
                 By                         <a class="url fn" href="../author/robert-utter.html">Robert Utter</a>
         </address>
         </p>
-</header><!-- /.post-info --><p>I've done a fair amount of gameplay programming, but have less experience with in-browser Javascript and even less interacting directly with OpenGL. This was a nice opportunity to explore both.</p>
-<p>This program was a class assignment to explore the various types of OpenGL primitives, including triangles, triangle strips and fans, line strips and loops, and points. I use only two shaders, both of which have a sort of "poor man's transform matrix" built in (that's my next learning topic).</p>
-<p><a href="../demos/webgl/icicles/icicles.html">Try the game for yourself!</a></p>
-<p>When I presented this project in class, several students assumed that I had used bitmap textures to produce my graphics. In fact, I draw everything with GL primitives and vertex coloring.</p>
+</header><!-- /.post-info --><p>Following up from my <a href="../webgl-icicles.html">first WebGL project</a>, I've built a nice little village scene to practice more graphics programming. This one includes perspective projection, texturing, and some vertex lighting.</p>
+<p>The game includes a day-night cycle to demonstrate the diffuse and ambient lighting changes. You can also walk around the scene or control the town's central windmill.</p>
+<p><a href="../demos/webgl/hamlet/hamlet.html">Check out The Little Hamlet</a></p>
+<p>Inspired by my work in Unity, I decided that building model matrices would be easier with hierarchical transform objects handling vector scaling, rotation, and translation. I have noticed a bug when applying some rotations, but avoiding it is pretty easy and the fix incurs a bigger performance penalty than I would like.</p>
+<p>As far as the blocky models, this is a class assignment with one unusual constraint: all geometry in the scene must be built from a single cube mesh.</p>
                 </article>
             </aside><!-- /#featured -->
                 <section id="content" class="body">
                     <h1>Other articles</h1>
                     <hr />
                     <ol id="posts-list" class="hfeed">
+
+            <li><article class="hentry">
+                
+                <h1><a href="../webgl-icicles.html" rel="bookmark" title="Permalink to WebGL Icicles">WebGL Icicles</a></h1>
+<header class="post-heading">
+        <abbr class="published" title="2014-09-16T00:00:00">
+                Sep 16, 2014
+        </abbr>
+
+        in category <a href="../category/jams.html">Jams</a> and tags <a href="../tag/webgl.html">webgl</a>
+</header><!-- /.post-info --> 
+
+                <div>
+                    <img class="left" src="/images/icicles-s.png" width="150" height="100"></img>
+                    <p>I've done a fair amount of gameplay programming, but have less experience with in-browser Javascript and even less interacting directly with OpenGL. This was a nice opportunity to explore both.</p>
+<p>This program was a class assignment to explore the various types of OpenGL primitives, including triangles, triangle strips and ...</p>
+                    <a class="readmore" href="../webgl-icicles.html">read more</a>
+                </div>
+            </article></li>
 
             <li><article class="hentry">
                 
@@ -62,7 +82,7 @@
 
         in category <a href="../category/jams.html">Jams</a> and tags <a href="../tag/unity3d.html">unity3d</a>
 </header><!-- /.post-info --> 
-                          
+
                 <div>
                     <p>You control an unarmed ship, facing off against the eponymous Copycat Killbot and its deadly lasers. You cannot hope to damage the Killbot directly, but because it mirrors your moves exactly you may be able to trick it into ramming mines that are in the area.</p>
 <p><strong>Copycat Killbot</strong> is a ...</p>
@@ -80,8 +100,9 @@
 
         in category <a href="../category/projects.html">Projects</a> and tags <a href="../tag/unity3d.html">unity3d</a>
 </header><!-- /.post-info --> 
-                          
-                <div class="js-image" data-img="flyover-s.jpg">
+
+                <div>
+                    <img class="left" src="/images/flyover-s.jpg" width="150" height="100"></img>
                     <p><strong>Flying Over the Influence</strong> is a drunken flight simulator for Unity WebPlayer 
 and mobile devices.</p>
 <p>Choose your plane. Fly through rings for bonus points. Shoot or collect 
@@ -104,7 +125,7 @@ making flight more difficult.</p>
 
         in category <a href="../category/jams.html">Jams</a> and tags <a href="../tag/unity3d.html">unity3d</a>
 </header><!-- /.post-info --> 
-                          
+
                 <div>
                     <p>Matt Shouse and I worked together for this <a href="http://globalgamejam.org/2014/games/flying-over-influence">Global Game Jam 2014 submission</a>. We've since <a href="../flying-over-the-influence.html">worked on the project a bit more</a>, polishing it up as a portfolio piece for GDC.</p>
 <p>You can find the <a href="https://github.com/areyoutoo/ggj2014">source code on GitHub</a>, or download a playable demo from the GGJ site.</p>
@@ -122,7 +143,7 @@ making flight more difficult.</p>
 
         in category <a href="../category/projects.html">Projects</a> and tags <a href="../tag/unity3d.html">unity3d</a>, <a href="../tag/shiva3d.html">shiva3d</a>
 </header><!-- /.post-info --> 
-                          
+
                 <div>
                     <p>After Techtonic Games went bust, I returned to university to finish my degree, where I was invited to return to Chico State Game Studios as a technical advisor.</p>
 <p>At the time, CSGS had switched engines and was using Shiva3D. Though I was sad to see the days of big-team, big-dream ...</p>
@@ -140,8 +161,9 @@ making flight more difficult.</p>
 
         in category <a href="../category/projects.html">Projects</a> and tags <a href="../tag/unity3d.html">unity3d</a>, <a href="../tag/techtonic.html">techtonic</a>
 </header><!-- /.post-info --> 
-                          
-                <div class="js-image" data-img="bnr-s.jpg">
+
+                <div>
+                    <img class="left" src="/images/bnr-s.jpg" width="150" height="100"></img>
                     <p><strong>Bust-N-Rush</strong> (BNR) is a 3D endless runner for PC and Mac, made by Techtonic 
 Games, previously available for sale on EA's Origin.</p>
 <iframe width="560" height="315" src="//www.youtube.com/embed/MsRQ912Un5M" frameborder="0" allowfullscreen></iframe>
@@ -162,8 +184,9 @@ long as he can "rush" fast enough. After the Satellite of Wub ...</p>
 
         in category <a href="../category/projects.html">Projects</a> and tags <a href="../tag/unity3d.html">unity3d</a>, <a href="../tag/techtonic.html">techtonic</a>
 </header><!-- /.post-info --> 
-                          
-                <div class="js-image" data-img="spin-s.jpg">
+
+                <div>
+                    <img class="left" src="/images/spin-s.jpg" width="150" height="100"></img>
                     <p>This was an announced but unshipped title that I worked on at Techtonic Games. I can't say much, other than to quote publicly available information from the game's <a href="https://www.facebook.com/SpinFight">Facebook page</a>:</p>
 <blockquote>
 <p>Your ship is surrounded on all sides by strange, alien vectors. You haven’t discovered any means of ...</p></blockquote>
@@ -181,8 +204,9 @@ long as he can "rush" fast enough. After the Satellite of Wub ...</p>
 
         in category <a href="../category/projects.html">Projects</a> and tags <a href="../tag/unreal.html">unreal</a>, <a href="../tag/csgs.html">csgs</a>
 </header><!-- /.post-info --> 
-                          
-                <div class="js-image" data-img="cvz-s.png">
+
+                <div>
+                    <img class="left" src="/images/cvz-s.png" width="150" height="100"></img>
                     <p>Evil is coming, and the brave soldiers of Mother Russia must rise to stop it. You play as a Commissar in Stalin's army during the infamous Battle of Stalingrad. You place troops, give them movement orders, permanent and temporary buffs, and light artillery support. Your goal? Survive the horde ...</p>
                     <a class="readmore" href="../communists-versus-zombies.html">read more</a>
                 </div>
@@ -198,29 +222,12 @@ long as he can "rush" fast enough. After the Satellite of Wub ...</p>
 
         in category <a href="../category/projects.html">Projects</a> and tags <a href="../tag/unreal.html">unreal</a>, <a href="../tag/csgs.html">csgs</a>
 </header><!-- /.post-info --> 
-                          
-                <div class="js-image" data-img="40s-s.jpg">
+
+                <div>
+                    <img class="left" src="/images/40s-s.jpg" width="150" height="100"></img>
                     <p>In this top-down puzzle game, you take on the role of Anita, an office worker who'd like nothing more than to leave work... if only she could reach the building's ground floor.</p>
 <p>After a mishap, the office's copy machines gain the ability to clone Anita. As you ...</p>
                     <a class="readmore" href="../40-stories.html">read more</a>
-                </div>
-            </article></li>
-
-            <li><article class="hentry">
-                
-                <h1><a href="../davis.html" rel="bookmark" title="Permalink to Davis">Davis</a></h1>
-<header class="post-heading">
-        <abbr class="published" title="2009-12-31T00:00:00">
-                Dec 31, 2009
-        </abbr>
-
-        in category <a href="../category/projects.html">Projects</a> and tags <a href="../tag/unreal.html">unreal</a>, <a href="../tag/csgs.html">csgs</a>
-</header><!-- /.post-info --> 
-                          
-                <div>
-                    <p>D.A.V.I.S. is the second total-conversion UDK project I worked on with Chico State Game Studios. This time around, we focused on puzzle mechanics and environmental storytelling.</p>
-<p>You wake up in the remnants of an abandoned subterranean complex. Through exploration, several facts will become clear: most of ...</p>
-                    <a class="readmore" href="../davis.html">read more</a>
                 </div>
             </article></li>
                 </ol><!-- /#posts-list -->

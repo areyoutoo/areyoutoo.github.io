@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
         <meta charset="utf-8" />
-        <title>Welcome!</title>
+        <title>WebGL Hamlet</title>
         <link rel="stylesheet" href="./theme/css/main.css" />
         <link rel="icon" type="image/png" href="/theme/images/icons/favicon.png" />
 
@@ -19,23 +19,42 @@
             <nav><ul>
                     <li><a href="./pages/about-me.html">About Me</a></li>
                     <li><a href="./pages/chico-state-game-studios.html">Chico State Game Studios</a></li>
-                    <li><a href="./category/jams.html">Jams</a></li>
+                    <li class="active"><a href="./category/jams.html">Jams</a></li>
                     <li><a href="./category/projects.html">Projects</a></li>
             </ul></nav>
         </header><!-- /#banner -->
-<section id="content" class="body bg-top" style="background-image: url(/images/bnr.jpg)" data-bgs="bnr.jpg,csgs.jpg,about.jpg">
-    <h1 class="entry-title">Welcome!</h1>
-    <p>My name is Robert Utter. I'm studying computer science at California State University, Chico. I also make video games and help run a few websites.</p>
-<p>In my spare time, I write about some of the things I've worked on:</p>
-<ul>
-<li><strong><a href="./category/projects.html">Long-term projects</a></strong> like <a href="./bust-n-rush.html">Bust-N-Rush</a> or <a href="./flying-over-the-influence.html">Flying Over the Influence</a></li>
-<li><strong><a href="./category/jams.html">One-off jams</a></strong> like <a href="./copycat-killbot.html">Copycat Killbot</a></li>
-</ul>
-<p>I've done quite a few student projects with <a href="./pages/chico-state-game-studios.html">Chico State Game Studios</a>, and some professional work with <a href="./tag/techtonic.html">Techtonic Games</a>.</p>
-<p>You can also browse my 
-<a href="http://github.com/areyoutoo">open source projects on GitHub</a>, see my <a href="http://stackoverflow.com/users/1251354/rutter">profile 
-on Stack Overflow</a>, or find some 
-other profiles linked below.</p>
+
+<section id="content" class="body bg-top" style="background-image: url(/images/hamlet.jpg)" >
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="./webgl-hamlet.html" rel="bookmark"
+           title="Permalink to WebGL Hamlet">WebGL Hamlet</a></h1>
+    </header>
+
+    <div class="entry-content">
+<header class="post-heading">
+        <p>
+                <abbr class="published" title="2014-11-17T00:00:00">
+                        November 17, 2014
+                </abbr>
+
+                in category <a href="./category/jams.html">Jams</a> and tags <a href="./tag/webgl.html">webgl</a>
+        </p>               
+
+        <p>
+        <address class="vcard author">
+                By                         <a class="url fn" href="./author/robert-utter.html">Robert Utter</a>
+        </address>
+        </p>
+</header><!-- /.post-info -->      <p>Following up from my <a href="./webgl-icicles.html">first WebGL project</a>, I've built a nice little village scene to practice more graphics programming. This one includes perspective projection, texturing, and some vertex lighting.</p>
+<p>The game includes a day-night cycle to demonstrate the diffuse and ambient lighting changes. You can also walk around the scene or control the town's central windmill.</p>
+<p><a href="./demos/webgl/hamlet/hamlet.html">Check out The Little Hamlet</a></p>
+<p>Inspired by my work in Unity, I decided that building model matrices would be easier with hierarchical transform objects handling vector scaling, rotation, and translation. I have noticed a bug when applying some rotations, but avoiding it is pretty easy and the fix incurs a bigger performance penalty than I would like.</p>
+<p>As far as the blocky models, this is a class assignment with one unusual constraint: all geometry in the scene must be built from a single cube mesh.</p>
+    </div><!-- /.entry-content -->
+
+  </article>
 </section>
         <section id="extras" class="body">
                 <div class="blogroll">
